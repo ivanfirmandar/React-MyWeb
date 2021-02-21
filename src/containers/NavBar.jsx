@@ -10,11 +10,11 @@ class NavbarA extends react.Component {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto d-flex justify-content-end">
-            <Nav.Link href="#features">Home</Nav.Link>
-            <Nav.Link href="#pricing">Portofolio</Nav.Link>
-            <Nav.Link href="#pricing">About</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-            <Nav.Link href="#pricing">Contact Us</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/portofolio">Portofolio</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/pricing">Pricing</Nav.Link>
+            <Nav.Link href="/contactus">Contact Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

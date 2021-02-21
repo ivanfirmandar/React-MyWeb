@@ -9,18 +9,18 @@ class SeminarList extends React.Component {
   };
   render() {
     return (
-      <div className="d-flex flex-wrap">
+      <div className="d-flex flex-wrap justify-content-center">
         <CardA
           title="Perjalanan Jauh"
           subtitle="Novel"
-          text={this.readMore()}
+          text={this.lorem}
         />
-        <CardA title="Kekasih" subtitle="Puisi" text={this.readMore()} />
-        <CardA title="Heran?" subtitle="Novel" text={this.readMore()} />
+        <CardA title="Kekasih" subtitle="Puisi" text={this.lorem} />
+        <CardA title="Heran?" subtitle="Novel" text={this.lorem} />
         <CardA
           title="Perjalanan Jauh 2"
           subtitle="Novel"
-          text={this.readMore()}
+          text={this.lorem}
         />
       </div>
     );

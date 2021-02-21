@@ -7,7 +7,10 @@ ReactDOM.render(
   <BrowserRouter>
     <div>
       <Route exact path="/" component={HomePage} />
-      <Route path="/home" component={HomePage} />
+      <Route path="/portofolio" component={HomePage} />
+      <Route path="/about" component={HomePage} />
+      <Route path="/pricing" component={HomePage} />
+      <Route path="/contactus" component={HomePage} />
     </div>
   </BrowserRouter>,
   rootElement

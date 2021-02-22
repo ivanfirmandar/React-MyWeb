@@ -1,7 +1,7 @@
 import ReactDOM from "react-dom";
 import { Route, Link, BrowserRouter } from "react-router-dom";
 import HomePage from "./pages/Home";
-import PortofolioPage from "./pages/Portofolio";
+import BlogPage from "./pages/Blog";
 import AboutPage from "./pages/About";
 import ContactmePage from "./pages/Contactme";
 
@@ -10,9 +10,9 @@ ReactDOM.render(
   <BrowserRouter>
     <div>
       <Route exact path="/" component={HomePage} />
-      <Route path="/portofolio" component={HomePage} />
-      <Route path="/about" component={HomePage} />
-      <Route path="/contactme" component={HomePage} />
+      <Route path="/blog" component={BlogPage} />
+      <Route path="/about" component={AboutPage} />
+      <Route path="/contactme" component={ContactmePage} />
     </div>
   </BrowserRouter>,
   rootElement

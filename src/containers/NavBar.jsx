@@ -14,7 +14,7 @@ class NavbarA extends react.Component {
             <Nav.Link href="/portofolio">Portofolio</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/pricing">Pricing</Nav.Link>
-            <Nav.Link href="/contactus">Contact Us</Nav.Link>
+            <Nav.Link href="/contactme">Contact Me</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

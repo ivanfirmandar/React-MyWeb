@@ -8,8 +8,8 @@ class ContactmePage extends React.Component {
      return (
        <div>
          <NavbarA />
-         <Development/>
-         {/* <ContactContainer /> */}
+         {/* <Development/> */}
+         <ContactContainer/>
        </div>
      );
    }

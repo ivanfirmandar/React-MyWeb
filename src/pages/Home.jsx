@@ -4,6 +4,9 @@ import "../styles.css"
 import NavbarA from "../containers/NavBar";
 
 class HomePage extends React.Component {
+  componentDidMount(){
+    document.getElementById('loading').classList.add("hiden")
+  }
   render() {
     return (
       <div>

@@ -50,7 +50,7 @@ class ContactContainer extends React.Component{
         }finally{
             document.getElementById('loading').classList.add("hiden")
             alert("Berhasil")
-            window.location.href = "contactme"
+            window.location.href = "secreto"
         }
         
     }

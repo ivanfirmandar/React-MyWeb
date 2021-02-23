@@ -7,6 +7,20 @@
 .development-image{
     height: 300px;
 }
+#loading{
+    position: fixed;
+    z-index: 200;
+    height: 40px;
+    width: 40px;
+    top: 50%;
+    left: 50%;
+}
+.hiden{
+    display: none;
+}
+.show{
+    display: block;
+}
 .developer-paragraph{
     text-align: justify;
     margin: 0;

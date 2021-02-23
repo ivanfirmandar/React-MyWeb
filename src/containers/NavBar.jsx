@@ -15,7 +15,7 @@ class NavbarA extends react.Component {
             <Nav.Link href="/" className="hovered-nav">Home</Nav.Link>
             <Nav.Link href="/blog" className="hovered-nav">Blog</Nav.Link>
             <Nav.Link href="/about" className="hovered-nav">About</Nav.Link>
-            <Nav.Link href="/contactme" className="hovered-nav">Contact Me</Nav.Link>
+            <Nav.Link href="/secreto" className="hovered-nav">Secreto</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

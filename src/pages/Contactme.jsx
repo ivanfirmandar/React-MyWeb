@@ -4,12 +4,13 @@ import Development from "../containers/Development";
 import ContactContainer from "../containers/ContactContainer"; 
 
 class ContactmePage extends React.Component {
+  
    render() {
      return (
        <div>
          <NavbarA />
-         <Development/>
-         {/* <ContactContainer /> */}
+         {/* <Development/> */}
+         <ContactContainer/>
        </div>
      );
    }

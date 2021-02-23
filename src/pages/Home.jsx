@@ -1,13 +1,14 @@
 import React from "react";
+import ContentHome from "../containers/ContentHome"
+import "../styles.css"
 import NavbarA from "../containers/NavBar";
-import SeminarList from "../containers/SeminarList";
 
 class HomePage extends React.Component {
   render() {
     return (
       <div>
         <NavbarA />
-        <SeminarList />
+        <ContentHome />
       </div>
     );
   }

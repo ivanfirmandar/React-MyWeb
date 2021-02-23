@@ -1,0 +1,50 @@
+.oops{
+    font-weight: bolder;
+    font-size: 80px;
+    color: #FFC107;
+    text-shadow: black;
+}
+.development-image{
+    height: 300px;
+}
+.developer-paragraph{
+    text-align: justify;
+    margin: 0;
+}
+.col-container-ig{
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    color: whitesmoke;
+}
+.col-container-wa{
+    background-color: #00E676;
+    color: whitesmoke;
+}
+.col-container-twt{
+    background-color: #00ACEE;
+    
+    color: whitesmoke;
+}
+.developer-badge{
+    color: gray;
+}
+.Contact-Title{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+@media only screen and (max-width: 576px) {
+    .responsive-centered{
+        text-align: center;
+        justify-content: center;
+    }
+    .responsive-paragraph{
+        font-size: 12px;
+    }
+    .responsive-badge{
+        font-size: 12px;
+    }
+    .responsive-title{
+        font-size: 20px;
+        font-weight: bold;
+    }
+  } 

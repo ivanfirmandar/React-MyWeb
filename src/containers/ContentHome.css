@@ -1,0 +1,44 @@
+.myPhoto-Container{
+    overflow: hidden;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    border:solid #FFC107
+    /* background-color:black */
+}
+.myPhoto{
+    width: 100%;
+    /* margin-left:10px; */
+    height: auto;
+}
+.ContentHome-Container{
+    overflow: hidden;
+}
+.ContentHome-Title{
+    color: whitesmoke;
+    margin:0px;
+    font-weight: bold;
+}
+.ContentHome-Paragraph{
+    color: whitesmoke;
+    font-size: 12px;
+    text-align: justify;
+}
+.noMargin{
+    margin: 0px;
+    padding: 0px;
+}
+.ContentHome-myName{
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.ContentHome-yellow{
+    color: gray;
+}
+@media only screen and (max-width: 600px) {
+  .responsive-centered{
+      text-align: center;
+
+  }
+} 

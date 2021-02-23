@@ -1,14 +1,16 @@
 import React from "react";
 import NavbarA from "../containers/NavBar";
+import Development from "../containers/Development";
+import ContentAbout from "../containers/ContentAbout";
 
-class HomePage extends React.Component {
+class AboutPage extends React.Component {
   render() {
     return (
       <div>
         <NavbarA />
-        <b>About Page</b>
+        <ContentAbout />
       </div>
     );
   }
 }
-export default HomePage;
+export default AboutPage;

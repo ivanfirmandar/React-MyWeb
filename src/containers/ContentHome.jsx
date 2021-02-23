@@ -15,7 +15,7 @@ class ContentHome extends React.Component{
                     </Col>
                     <Col sm={8} >
                         <Row className="d-flex align-items-center">
-                        <div>
+                        <div className="">
                             <p className="ContentHome-Title responsive-centered">Welcome</p>
                             <p className="m-0 ContentHome-yellow responsive-centered">Developer Abal-abal</p>
                             <h2 className="ContentHome-myName responsive-centered">Ivan Firmanda <Badge variant="warning">1999</Badge></h2>

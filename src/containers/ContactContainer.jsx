@@ -28,12 +28,14 @@ class ContactContainer extends React.Component{
         const date = DateN.getHours() + ":"+ DateN.getMinutes()+ " | " + DateN.getDate() + "-" + DateN.getMonth() + "-" + DateN.getFullYear() ;
         document.getElementById('loading').classList.remove("hiden")
         const msg = document.getElementById("pesan-visitor");
+        const access = document.getElementById("sifat-pesan")
         const url = `https://sheetdb.io/api/v1/tgv6rbgi12m6k`
         var json = {
             data : [
             {
                 id : Date.now(),
                 message : msg.value,
+                access : access.value,
                 date : date
             }
         ]}
@@ -64,6 +66,14 @@ class ContactContainer extends React.Component{
                             <Form.Group controlId="name-visitor">
                                 <Form.Label>Nama Pengirim</Form.Label>
                                 <Form.Control size="lg" type="text" placeholder="Fulan bin Fulan" value="Anonymous" readOnly />
+                            </Form.Group>
+                            <Form.Group controlId="sifat-pesan">
+                                <Form.Label>Sifat Pesan</Form.Label>
+                                <Form.Control as="select">
+                                <option value="public">Publik - Dapat dilihat orang lain</option>
+                                <option value="private">Privat - Tidak dapat dilihat orang lain</option>
+                                {/* <option>Protected</option> */}
+                                </Form.Control>
                             </Form.Group>
                             <Form.Group controlId="pesan-visitor">
                                 <Form.Label>Pesan</Form.Label>

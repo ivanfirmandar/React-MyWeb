@@ -68,7 +68,7 @@ class ContactContainer extends React.Component{
                                 <Form.Control size="lg" type="text" placeholder="Fulan bin Fulan" value="Anonymous" readOnly />
                             </Form.Group>
                             <Form.Group controlId="sifat-pesan">
-                                <Form.Label>Sifat Pesan</Form.Label>
+                                <Form.Label>Hak Akses Pesan</Form.Label>
                                 <Form.Control as="select">
                                 <option value="public">Publik - Dapat dilihat orang lain</option>
                                 <option value="private">Privat - Tidak dapat dilihat orang lain</option>

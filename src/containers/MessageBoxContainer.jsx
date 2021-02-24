@@ -16,9 +16,9 @@ class MessageBoxContainer extends React.Component{
         if(this.state.datas != this.props.data){
             this.setState({datas : this.props.data});
         }else{
-            console.log("Component is updating");
-            console.log(this.state.datas)
+            console.log("Updating")
         }
+
         document.getElementById('loading').classList.add("hiden")
     }
     updateMessageBox = (data)=>{
@@ -28,7 +28,13 @@ class MessageBoxContainer extends React.Component{
         return(
             <div className="pt-3">
                 <p className="mb-2">Hasil Pesan</p>
-                {this.state.datas.map(data => (<MessageBox msg={data.message} key={data.id} date={data.date} />))}
+                {this.state.datas.map(data => {
+                    if (data.access == "public") {
+                        return (<MessageBox msg={data.message} key={data.id} date={data.date} access={data.access} />)
+                    }else{
+                        return (<MessageBox msg={<b className="redText">Anda tidak dapat melihat pesan ini</b>} key={data.id} date={data.date} access={data.access}/>)
+                    }
+                    })}
             </div>
         )
     }

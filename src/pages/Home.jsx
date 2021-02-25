@@ -11,6 +11,9 @@ class HomePage extends React.Component {
     return (
       <div>
         <NavbarA />
+        <Alert key={idx} variant={variant}>
+          This is a {variant} alert—check it out!
+        </Alert>
         <ContentHome />
       </div>
     );

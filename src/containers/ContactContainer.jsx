@@ -48,11 +48,16 @@ class ContactContainer extends React.Component{
                 body : JSON.stringify(json)
             })
         }catch{
-            alert("gagal")
+            window.setTimeout(()=>{
+                document.getElementById('alert-failed').classList.add("hiden");
+            },3000)
         }finally{
-            document.getElementById('loading').classList.add("hiden")
-            alert("Berhasil")
-            window.location.href = "secreto"
+            document.getElementById('loading').classList.add("hiden");
+            document.getElementById('alert-success').classList.remove("hiden");
+            window.setTimeout(()=>{
+                document.getElementById('alert-success').classList.add("hiden");
+                window.location.href = "secreto"
+            },3000)
         }
         
     }
@@ -87,7 +92,7 @@ class ContactContainer extends React.Component{
                     </Col>
                 </Row>
                 </Container>  
-                <p style={{textAlign:"center", color:"gray", marginTop:"10px", marginBottom:"5px", fontSize:"12px"}}>Created by Ivan Firmanda</p>  
+                <p className="createdby">Created by Ivan Firmanda</p>  
             </Jumbotron>
         )
     }

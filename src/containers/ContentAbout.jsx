@@ -42,8 +42,8 @@ class ContentAbout extends React.Component{
                             responsive-centered">Hobi</p>
                             <h2 className="ContentAbout-myName responsive-centered">
                                 <Badge variant="warning" className="mr-1">Menjelajahi Internet</Badge>
-                                <Badge variant="warning" className="mr-1">Menulis Program</Badge> 
-                                <Badge variant="warning" className="mr-1">Berpikir</Badge>
+                                <Badge variant="warning" className="mr-1">Ngode</Badge> 
+                                <Badge variant="warning" className="mr-1">Over-thinking</Badge>
                                 <Badge variant="warning" className="mr-2">nonton video kucing viral</Badge> 
                             </h2>
                             <p className="m-0 ContentAbout-yellow responsive-centered">Pekerjaan Utama</p>

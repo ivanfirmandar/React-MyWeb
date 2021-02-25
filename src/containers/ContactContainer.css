@@ -14,14 +14,17 @@
     margin-bottom: 5px;
     font-size: 12px;
 }
-#loading{
+/* #loading{
     position: fixed;
     z-index: 200;
-    height: 40px;
-    width: 40px;
     top: 50%;
     left: 50%;
 }
+#loading img{
+    height: 40px;
+    width: 40px;
+    transform: translate(-20px,-20px);
+} */
 .hiden{
     display: none;
 }

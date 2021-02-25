@@ -14,9 +14,9 @@
     position: relative;
     height: 40px;
     width: 40px;
-
     left: 50%;
     top: 50%;
+    transform: translate(-20px,-20px);
 }
 .hiden{
     display: none;

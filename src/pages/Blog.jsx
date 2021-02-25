@@ -1,6 +1,7 @@
 import React from "react";
 import NavbarA from "../containers/NavBar";
 import Development from "../containers/Development"
+import "./Pages.css";
 
 class BlogPage extends React.Component {
   componentDidMount(){
@@ -10,6 +11,7 @@ class BlogPage extends React.Component {
     return (
       <div>
         <NavbarA />
+        <div className="whiteArea"></div>
         <Development />
       </div>
     );

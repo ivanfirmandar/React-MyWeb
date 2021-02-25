@@ -2,6 +2,7 @@ import React from "react";
 import ContentHome from "../containers/ContentHome"
 import "../styles.css"
 import NavbarA from "../containers/NavBar";
+import "./Pages.css";
 
 class HomePage extends React.Component {
   componentDidMount(){
@@ -11,9 +12,7 @@ class HomePage extends React.Component {
     return (
       <div>
         <NavbarA />
-        <Alert key={idx} variant={variant}>
-          This is a {variant} alert—check it out!
-        </Alert>
+        <div className="whiteArea"></div>
         <ContentHome />
       </div>
     );

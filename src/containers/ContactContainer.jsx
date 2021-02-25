@@ -54,6 +54,7 @@ class ContactContainer extends React.Component{
         }finally{
             document.getElementById('loading').classList.add("hiden");
             document.getElementById('alert-success').classList.remove("hiden");
+            window.location.href = "#whiteArea"
             window.setTimeout(()=>{
                 document.getElementById('alert-success').classList.add("hiden");
                 window.location.href = "secreto"

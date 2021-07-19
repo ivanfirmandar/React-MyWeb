@@ -17,12 +17,23 @@ class CardContainer extends React.Component {
           link="http://www.uupajakindonesia.site/?i=1"
         />
         <CardA 
-          title = "Aplikasi Terbengkalai" 
-          subtitle="Aplikasi Website" 
-          text= "Merupakan aplikasi yang awalnya bersemangat untuk dibuat, namun saat pengerjaan kehilangan semangat untuk melanjutkan dikarenakan bosan dan jenuh, atau terlalu besar untuk dilakukan sendiri"
+          title = "WhatsApp Push" 
+          subtitle="Aplikasi Desktop" 
+          text= "Merupakan Aplikasi yang berfungsi menyebarkan pemberitahuan otomatis kepada Wajib Pajak PKB terkait informasi tentang jatuh tempo dan tagihan pajak. Aplikasi ini menggunakan hasil cetakan pdf SPOS, NPP, dan NTP sebagai database"
           link="https://github.com/ivanfirmandar?tab=repositories"
         />
-        
+        <CardA 
+          title = "Sinoutsu" 
+          subtitle="Aplikasi Website" 
+          text= "Merupakan aplikasi yang berfungsi untuk men-generate nomor urut surat secara otomatis"
+          link="https://github.com/ivanfirmandar?tab=repositories"
+        />
+        <CardA 
+          title = "Peratif" 
+          subtitle="Aplikasi Website/Android" 
+          text= "Merupakan sarana K.B. Samsat Nganjuk dalam melakukan pelaporan terkait gratifikasi dan tindakan melenceng lainnya"
+          link="https://github.com/ivanfirmandar?tab=repositories"
+        />
       </div>
     );
   }
